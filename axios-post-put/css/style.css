@@ -1,0 +1,36 @@
+body {
+    padding: 50px 0;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+#foodsList {
+    list-style: none;
+    padding: 0;
+}
+
+#foodsList .food {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#foodsList .food p {
+    font-size: .8em
+}
+
+#foodsList .food img {
+    width: 60px;
+    margin-right: 10px;
+}
+
+form label, form input {
+    width: 100%;
+    display: block;
+}
