@@ -44,3 +44,13 @@ Para ejecutar la aplicación de alimentos es necesario iniciar Chrome con este c
   open -n -a Google\ Chrome --args --disable-web-security --user-data-dir=/tmp/chrome
   ````
 Esto permite abrir el HTML funcional en cualquiera de las pestañas de la nueva ventana.
+
+El Base URL de la API de alimentos es `https://reactr-realfooder.herokuapp.com/api`, con los siguientes endpoints:
+
+ | Path        | Method           | JSON response  |
+  | ------------- | ------------- | ------------- |
+  | `/foods`  | GET | All products  |
+  | `/foods/details/:id` | GET | ID matching product's details  |
+  | `/foods/newFood` | POST | Create new product  |
+  | `/foods/edit/:id` | PUT | Edit ID matching product  |
+  
