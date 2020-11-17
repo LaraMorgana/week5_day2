@@ -28,7 +28,7 @@
   ````
 - Todas las peticiones de Axios son resultas mediante promesas que retronan un objeto que almacena la respuesta del servidor bajo su propiedade `data`:
   ````javascript
-  axios
+  axiosApp
     .get("url")
     .then(response => console.log('La respuesta del servidor es ', response.data)
     .catch(err => console.log(err))
