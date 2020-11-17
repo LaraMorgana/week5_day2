@@ -37,4 +37,10 @@ El método `.preventDefault()` del objeto `event` permite anular el envío clás
   formObject.onsubmit = e => e.preventDefault()
   ````
 
+## Aside: aplicación de alimentos (GET/POST/PUT)
 
+Para ejecutar la aplicación de alimentos es necesario iniciar Chrome con este comando sobre el terminal:
+  ````raw
+  open -n -a Google\ Chrome --args --disable-web-security --user-data-dir=/tmp/chrome
+  ````
+Esto permite abrir el HTML funcional en cualquiera de las pestañas de la nueva ventana.
